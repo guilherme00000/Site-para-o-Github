@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(230, 204, 253);
+}
+.menu{
+    background-color: blueviolet;
+    height: 30px;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+}
+a{
+    color: white;
+}

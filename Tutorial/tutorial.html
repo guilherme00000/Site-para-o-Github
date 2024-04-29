@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutorial como programar em php.</title>
+    <link rel="stylesheet" href="tutorial.css">
+</head>
+<body>
+    <div class="menu">
+        <a href="#O que é PHP?">O que é PHP?</a>
+        <a href="#Como baixar o PHP em sua máquina">Como baixar o PHP em sua máquina</a>
+        <a href="#Criando um arquivo executavél">Criando um arquivo executavél</a>
+        <a href="#Como executar o arquivo?">Como executar o arquivo?</a>
+        <a href="#Como baixar e instalar o XAMPP e executar o arquivo">Como baixar e instalar o XAMPP e executar o arquivo</a>
+    </div>
+    <h1 id="O que é PHP?">O que é PHP?</h1>
+
+    <img src="imagens\imgphp.png" alt="php">
+
+    <p>PHP é uma linguagem de programação voltada para o desenvolvimento de aplicações para a web e para criar sites, favorecendo a conexão entre os servidores e a interface do usuário.
+    <br>
+    Entre os fatores que fizeram o PHP se popularizar bastante é possível apontar, principalmente, o fato de ser em código aberto. Isso significa que qualquer um pode realizar mudanças na estrutura dessa linguagem.
+    <br>  
+    Na prática, isso representa duas coisas importantes: primeiramente, por ser de código aberto, não há restrições de uso ligadas a direitos.
+    <br>    
+    O usuário pode usar PHP para programar em qualquer projeto e, depois, comercializá-lo tranquilamente. Além disso, a outra vantagem é a possibilidade de melhorias constantes no código, algo que a comunidade de programadores costuma fazer.</p>
+
+    <h1 id="Como baixar o PHP em sua máquina">Como baixar o PHP em sua máquina</h1>
+    <p>Para fazer o download do PHP em seu computador, acesse o site: <a href="https://www.php.net/downloads.php">https://www.php.net/downloads.php</a></p>
+    <p>Na tela inicial, clique em: Windows download</p>
+    <img src="imagens\windows download.png" alt="Windows download">
+    <p>Depois de ter clicado em Windows download, acesse a primeira opção zip, que será a extensão usada para fazer o download do php.
+    </p>
+    <img src="imagens\zip.png" alt="Arquivo zip">
+    <p>Depois de ter selecionado essa opção, o download do arquivo começará, apenas aguarde que finalize para continuar o passo-a-passo.</p>
+    <img src="imagens\download.png" alt="Download">
+    <p>Depois do download finalizado, acesse o Explorador de Arquivos do seu computador e desça até a opção dowsnloads, ache o nome do arquivos e clique com o botão direito em cima dele e, selecione a opção Extrair para...</p>
+    <img src="imagens\extrair.png" alt="Extrair">
+    <p>Quando terminar a extração do arquivo, pegar a pasta e por lá dentro do Disco C:</p>
+    <img src="imagens\c...png" alt="C:">
+    <h1 id="Criando um arquivo executavél">Criando um arquivo executavél</h1>
+    <p>Depois que a pasta estiver dentro do Disco C:, é necessário criar um arquivo de texto executavél. Para isso, clique com o botão dereito em um espaço vazio dentro da própria pasta, e na janela que se abrir de opções, siga as indicações das setas vermelhas.</p>
+    <img src="imagens\txt.png" alt="Documento de texto">
+    <p>Feito isso, vamos editar o documento de texto e salva-ló da maneira correta, para se criar um arquivo executavél apartir dele.
+        <br>
+        Lembrando que o arquivo tem que ser salvo com a extensão .php
+        <br>
+        Siga o exemplo do script que está edentificado na imagem, para criar um script simples e vamos salva-ló como: exemplo.php
+    </p>
+    <img src="imagens\PHP.png" alt="PHP">
+    <p>Para salvar o documento, clique em "Arquivo" e depois em "Salvar Como..."</p>
+    <img src="imagens\salvar.png" alt="salvar">
+    <p>Na tela que se abrir, na opção Nome, nomear o arquivo como "exemplo.php" e em Tipo selecionar a opção "Todos os arquivos" e por fim salvar.</p>
+    <img src="imagens\salvamento.png" alt="Salvamento">
+    <p>Se tudo der certo, você terá uma arquivo executavél como esse que está aparecendo na tela indicado pela seta vermelha.</p>
+    <img src="imagens\final.png" alt="final">
+    <h1 id="Como executar o arquivo?">Como executar o arquivo?</h1>
+    <p>Abra o CMD, usando as teclas de atalho win + R. E no menu suspenso que se abre, digite CMD.</p>
+    <img class="imagem" src="imagens\cmd.png" alt="cmd">
+    <p>Para executar o arquivo, na tela inicial do CMD, use o comando "c.." que fará você navegar para o diretório anterior, com isso, você acessará o "Disco Local C:", dentro dele faça o comando "cd" + o nome da pasta onde está seu arquivo.</p>
+    <img src="imagens\cd.JPG" alt="cd..">
+    <p>Para executar o arquivo propriamente dito, use está sintaxe: php -S localhost:80 -t "nome da pasta"</p>
+    <img src="imagens\servido.JPG" alt="servidor">
+    <p>Feito isso, agora acesse o navegador de internet, pode ser o Edge, e na barra da pesquisa coloque este comando: localhost/nomedoexecutavél. Depois de enter e o arquivo será executado na página web.</p>
+    <img src="imagens\fim.JPG" alt="fim">
+    <h1 id="Como baixar e instalar o XAMPP e executar o arquivo">Como baixar e instalar o XAMPP e executar o arquivo</h1>
+    <p>Para fazer o download do XAMPP, acesse este link: <a href="https://www.apachefriends.org/index.html">https://www.apachefriends.org/index.html</a></p>
+    <img src="imagens\xampp.JPG" alt="xampp">
+    <p>Depois de ter instalado o XAMPP, agora inicie o painel de controle dele, pode ser salvo na barra de tarefas mas, ele pode ser acessado através do CMD também, usando o seguinte comando: C:\xampp\xampp-control.exe.
+        Depois de vizualizar o painel clique em start para inicar o servidor. </p>
+    <img src="imagens\painel.JPG" alt="painel">
+    <p>Depois de inicar o servidor, agora vamos acessar a pasta "htdocs" que está dentro dos documentos do XAMPP, e lá dentro vamos salvar um arquivo executavél. Neste caso, vamos usar o mesmo documento que foi usando dentro do cmd, para isso basta usar o Ctrl C + Ctrl V para colar o executavél dentro da pasta desejada.</p>
+    <img src="imagens\abrir.JPG" alt="abrir">
+    <br>
+    <img src="imagens\ht.JPG" alt="ht">
+    <img src="imagens\ctrl.JPG" alt="docs">
+    <p>Agora abra o navegor do computador e neste momento digite: localhost/"nome do arquivo". Isso fará com que ele seja executado pelo XAMPP.</p>
+    <img src="imagens\fimm.JPG" alt="fimm">
+</body>
+</html>
